@@ -1,0 +1,268 @@
+html {
+  font-family: "Open Sans","OpenSans",sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 0 20px 0 20px;
+  height: 43px;
+  align-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 443px;
+  padding: 0 20px 0 20px;
+  background-color: #1D4E69;
+  background-image: url("/home/jorge/Imágenes/Clone images/city-scape.svg");
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logocontainer {
+  width: 125px;
+}
+
+.search-container {
+  width: auto;
+  flex-grow: 1;
+}
+
+.site-search {
+  width: auto;
+  padding: 0 20px 0 20px;
+  position: relative;
+}
+.site-search input {
+  background-color: #fabada;
+  width: 100%;
+}
+.site-search button {
+  position: absolute;
+  top: 1px;
+  right: 0;
+}
+.userinfo {
+  display: flex;
+  align-items: center;
+}
+
+.userinfo span {
+  margin: 0 5px 0 5px;
+}
+
+.userinfo * {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.buildamazingthings {
+  width: 1160px;
+  height: 323px;
+  padding: 60px 0 60px 0;
+  margin: 0 auto;
+  display: block;
+  font-size: 16px;
+  line-height: 21.6px;
+}
+
+.textcontainer {
+  margin-left: 48px;
+}
+
+.textcontainer * {
+  color: white;
+  text-decoration: none;
+}
+
+.textcontainer h1 {
+  margin: 20px 0 10px 0;
+  padding: 5px 0 5px 0;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.286;
+}
+
+.textcontainer p {
+  margin: 10px 0 10px 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.286;
+}
+.button {
+  background-color: #f09233;
+  outline: none;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  height: 24px;
+  width: 134px;
+  padding: 7px 26px 8px 26px;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.collaboration {
+  background-color: #273547;
+  width: 0 auto;
+  height: 625px;
+}
+
+.teamcontainer {
+  color: rgb(109, 121, 134);
+  display: flex;
+  font-size: 16px;
+  width: 940px;
+  height: 385px;
+  padding: 120px 10px 120px 10px;
+  margin: 0 112px 0 112px;
+  font-size: 16px;
+  line-height: 21.6px;
+}
+.npmorgs {
+  color: white;
+  font-size: 16px;
+  line-height: 21.6px;
+  height: 380px;
+  width: : 385px;
+  padding: 0 10px 0 10px;
+  margin: 0 40px 0 40px;
+}
+.npmorgs h2 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 46.296px;
+  margin-bottom: 10px;
+}
+.npmorgs a {
+  color: white;
+  text-decoration: none;
+}
+.list {
+  padding: 0 0 20px 23px;
+}
+.nextbutton {
+  background-color: #cb3837;
+  outline: none;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  height: 24px;
+  width: 134px;
+  padding: 7px 26px 8px 26px;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.whatisnpm {
+  background-color: #206F9C;
+  background-image: url("/home/jorge/Imágenes/Clone images/forklift.svg");
+  height: 529px;
+  color: white;
+  margin: 0;
+}
+.main {
+  height: 409px;
+  width: 940px;
+  padding: 60px 10px 60px 10px;
+  margin: 0 112px 0 112px;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 21.6px;
+}
+.main h2 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 46.296px;
+  margin-bottom: 10px;
+}
+.thirdbutton {
+    background-color: #34495e;
+    outline: none;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    height: 24px;
+    width: 134px;
+    padding: 7px 26px 8px 26px;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 20px;
+  }
+.whatcanyoumake {
+  background-color: white;
+  height: 511px;
+  width: 1517px;
+}
+.description {
+  width: 1140px;
+  height: 431px;
+  padding: 40px 10px 40px 10px;
+  margin: 0 205px 0 205px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-family: "Open Sans","OpenSans",sans-serif;
+  font-size: 16px;
+}
+.description h3 {
+  height: 42px;
+  font-size: 36px;
+  font-weight: 300px;
+  line-height: 1.28
+  padding: 0 3.9px 0 3.9px;
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+.description p {
+  font-size: 16px;
+  line-height: 1.35;
+  color: #6d7986;
+  text-align: center;
+  margin-bottom: 10.5px;
+}
+.option-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.option-container h4 {
+  font-size: 20px;
+}
